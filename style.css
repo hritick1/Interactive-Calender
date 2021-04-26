@@ -1,0 +1,128 @@
+.container{
+    background-image: url("proje.png");
+    color: red;
+    padding: 3px;
+    display: grid;
+    grid-gap: 15px;
+    grid-template-areas: 'header header header header header header header header header header'
+    'box1 box1 box1 box1 box1 box1 box1 box1 box1 box1  '
+   'sidebar sidebar sidebar maincontent maincontent maincontent maincontent box3 box3 box3'
+   'footer footer footer footer footer footer footer footer footer footer'
+
+       }
+       .item{
+        font-size: 38px;
+        padding: 2px;
+        text-align: center;
+                }
+                #st1{
+        grid-area: header;
+        grid-row: 1/1;
+                }
+                #st2{
+                    grid-area:box1;
+                    grid-row: 2/9;
+                }
+                #st4{
+                    grid-area:box3;
+                    grid-row: 10/18;
+                   
+                }
+                #st5{
+                    grid-area:sidebar;
+                    grid-row: 10/18;
+                   
+                } 
+                #st6{
+                    grid-area:maincontent;
+                    grid-row: 10/20;
+                    background-color:rgba(0,0,0,0.5);
+                    font-family:algerian;
+                    color:rgba(248, 248, 18, 0.884);
+                }
+                #st7{
+                    grid-area: footer;
+                    grid-row: 21/23;
+                    background-color: rgb(43, 42, 42);
+                    text-align: center;
+            margin-bottom: 0px;
+            height: 11.5vh;
+            margin-top: 75px;
+            color: white;
+            letter-spacing: 3px;
+            font-family: raleway;
+            font-size: 20px;
+        
+           
+        
+                }
+                input[type=text],input[type=password],input[type=email],input[type=submit],[type=reset],[type=button]
+                {
+                    font-size:30px;
+                   background-color:rgb(39, 37, 37);
+                   margin-bottom: 25px;
+                   color:rgba(248, 248, 18, 0.884);
+                   font-family: algerian;
+                   
+                   
+                }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(43, 42, 42);
+    height: 10vh;
+    align-items: center;
+}
+
+.logo {
+    color: white;
+    font-family: raleway;
+    font-size: 2rem;
+    margin-left: 35px;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+.logo:hover {
+    transform: translateY(-5px);
+}
+
+nav .navbar ul{
+    display: flex;
+}
+
+nav .navbar ul li {
+    padding: 5px;
+    list-style: none;
+    margin-right: 30px;
+}
+
+nav .navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: raleway;
+    padding: 5px;
+    font-size: 18px;
+}
+
+nav .navbar ul li a:hover {
+    color: rgb(8, 240, 151);
+}
+#f{
+    background-color: rgb(43, 42, 42);
+    text-align: center;
+margin-bottom: 0px;
+height: 11.5vh;
+margin-top: 75px;
+color: white;
+letter-spacing: 3px;
+font-family: raleway;
+font-size: 20px;
+}
