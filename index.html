@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Home</title>
     <style>
         .cont{
             display: grid;
@@ -31,14 +31,27 @@ grid-row: 1/10;
         #b{
 grid-area: menu1;
 grid-row: 10/20;
+font-size: 50px;
+font-family: Algerian;
+color: red;
+text-align: center;
         }
         #c{
 grid-area:righ;
 grid-row: 20/55;
+text-align: center;
+padding-top: 300px;
+font-size: 50px;
+font-family: Algerian;
+color: red;
+background-image:url("des.jpg");
+padding-right: 550px;
         }
         #d{
 grid-area: lef;
 grid-row: 20/55;
+padding-left: 90px;
+
         }
         #f{
             grid-area: foot;
@@ -49,33 +62,44 @@ grid-row: 20/55;
             font-family:'Algerian';
              font-size: 60px;
              vertical-align:bottom;
+             width: auto;
+        background-color: rgb(0, 153, 255);
+            color:beige;
+            border
+             
 }
+
     </style>
+    <link rel="icon" href="favicon.jpeg">
 </head>
 <link rel="stylesheet" href="style.css">
+
+
 <body>
     <div class="cont">
         <div class="id"id="a">
             <nav>
                 <div class="logo">
+                  
                     Calender
                 </div>
                 <div class="navbar">
                     <ul>
                         <li><a href="#">Home</a></li>
-                        <li><a href="#">Important Activities</a></li>
-                        <li><a href="#">Important Dates</a></li>
-                        <li><a href="#">About Us</a></li>
+                        <li><a href="Content.html">Important Activities</a></li>
+                        <li><a href="impo.html">Important Dates</a></li>
+                        <li><a href="project.html">About Us</a></li>
                         <li><a href="newgrid.html">Login</a></li>
                     </ul>
                 </div>
             </nav>
         </div>
-        <div class="id"id="b">MENU</div>
-        <div class="id"id="c">LEft</div>
+        <div class="id"id="b">WELCOME TO OUR CALENDAR</div>
+        <div class="id"id="c"></div>
         <div class="id"id="d">
             <table  border="18" class="sw">
-                <caption class="sw">MaY-2020</caption>
+                <caption class="sw" style="background-color: white;color:black;">MaY-2020</caption>
+                <div class="s1">
                 <tr>
                     <th>Su</th>
                     <th>Mo</th>
@@ -142,6 +166,7 @@ grid-row: 20/55;
                 <td></td>
                 <td></td>
             </tr>
+        </div>
             
             </table>
         </div>

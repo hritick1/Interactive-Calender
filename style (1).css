@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aqua;
+}
+
+
+/* header {
+    border: 2px solid red;
+} */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(43, 42, 42);
+    height: 10vh;
+    align-items: center;
+}
+
+.logo {
+    color: white;
+    font-family: raleway;
+    font-size: 2rem;
+    margin-left: 35px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.logo:hover {
+    transform: translateY(-5px);
+}
+
+nav .navbar ul {
+    display: flex;
+}
+
+nav .navbar ul li {
+    padding: 5px;
+    list-style: none;
+    margin-right: 30px;
+}
+
+nav .navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: raleway;
+    padding: 5px;
+    font-size: 18px;
+}
+
+nav .navbar ul li a:hover {
+    color: rgb(8, 240, 151);
+}
+
+
+/*Section starts from here*/
+
+section .title h1 {
+    font-size: 40px;
+    font-family: raleway;
+    /* padding: 5px; */
+    text-align: center;
+    letter-spacing: 2px;
+    color: rgb(32, 26, 26);
+    text-shadow: 2px 2px 3px green;
+}
+
+section {
+    height: calc(120vh-10vh);
+    padding: 2rem 2rem 2rem 2rem;
+    /* border: 2px solid red; */
+}
+
+.table-content {
+    /* border: 2px solid red; */
+    width: 85%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table tr {
+    padding: 10px;
+}
+
+table tr td,
+th {
+    padding: 10px;
+    font-size: 20px;
+    /* color: white; */
+}
+
+footer {
+    /* border: 2px solid yellow; */
+    background-color: rgb(43, 42, 42);
+    text-align: center;
+    margin-bottom: 0px;
+    height: 11.5vh;
+    margin-top: 80px;
+}
+
+.fcontent {
+    height: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fcontent p {
+    color: white;
+    letter-spacing: 2px;
+    padding: 10px auto 5px auto;
+    font-family: raleway;
+}
