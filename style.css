@@ -4,10 +4,10 @@
     padding: 3px;
     display: grid;
     grid-gap: 15px;
-    grid-template-areas: 'header header header header header header header header header header'
-    'box1 box1 box1 box1 box1 box1 box1 box1 box1 box1  '
-   'sidebar sidebar sidebar maincontent maincontent maincontent maincontent box3 box3 box3'
-   'footer footer footer footer footer footer footer footer footer footer'
+    grid-template-areas: 'header header header'
+    'box1 box1 box1 '
+   'sidebar  maincontent box3'
+   'footer footer footer'
 
        }
        .item{
